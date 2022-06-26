@@ -1,0 +1,59 @@
+.maintopWrapper {
+    padding-left: 3em;
+}
+
+.shapesRight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 15vh solid #F0EFED;
+    border-right: 15vh solid transparent;
+}
+
+.shapesLeft {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 15vh solid #F0EFED;
+    border-left: 15vh solid transparent;
+}
+
+.shapesText {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 6vh;
+    color:#878a8f;
+}
+
+.lines {
+    width: 3vh;
+    height: 50vh;
+    background: #F0EFED;
+}
+
+.linesmenu {
+    width: 1vh;
+    height: 5vh;
+    background: #F0EFED;
+}
+
+
+@media only screen and (min-width:1200px) {
+    .GreenHeadings {
+        font-size: 5vw !important;
+    }
+
+    .GreenConnected {
+        font-size: 1.4vw !important;
+    }
+
+    .maintopWrapper {
+        height: 100vh !important;
+    }
+
+}

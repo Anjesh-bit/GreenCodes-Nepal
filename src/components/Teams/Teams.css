@@ -1,0 +1,80 @@
+.outerImageContainer {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 3em;
+
+}
+.main{
+    background-color:#F0EFED ;
+}
+
+.innerContainerImage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+    width: 45%;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.mainConatiner {
+    padding-top: 2.5em;
+    padding-bottom: 2em;
+
+}
+
+.imageWrapper {
+    position: relative;
+    height: 24vh;
+    width: 23vh;
+}
+
+.teamsImages {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+
+
+}
+
+
+
+.imageContainer {
+    height: 50vh;
+    width: 50vh;
+
+}
+
+.teamsList {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+
+}
+
+@media only screen and (max-width:1200px) {
+    .innerContainerImage {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media only screen and (max-width:840px) {
+    .innerContainerImage {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media only screen and (max-width:580px) {
+    .innerContainerImage {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .imageWrapper {
+        height: 50vh;
+        width: 300%;
+    }
+}
